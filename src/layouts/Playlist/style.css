@@ -1,0 +1,5 @@
+.playlist{
+    width: 65%;
+    height: 100%;
+    overflow: auto;
+}

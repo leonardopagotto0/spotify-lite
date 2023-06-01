@@ -1,0 +1,27 @@
+.track_card{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.track_card .image{
+    width: 50px;
+    margin-right: 10px;
+}
+.track_card > .about{
+    display: flex;
+    align-items: center;
+}
+
+.track_card .music_data{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.track_card:hover{
+    background-color: #5555555e;
+}

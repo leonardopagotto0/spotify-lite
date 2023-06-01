@@ -1,0 +1,75 @@
+.navbar{
+    width: 35%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(34, 34, 34);
+    border-right: 1px solid #414141;
+}
+.navbar .routes{
+    padding: 20px;
+    border-bottom: 1px solid #414141;
+}
+.navbar .routes > span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.navbar .routes .material-icons{
+    width: 30px;
+    font-size: 20pt;
+    margin-right: 30px;
+}
+.navbar .title{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
+    padding: 20px;
+}
+.navbar .user-area{
+    padding: 10px;
+    flex: 1;
+    -ms-flex: 1;
+    height: 100%;
+    overflow: auto;
+}
+.navbar .user-area .material-icons{
+    width: 30px;
+    font-size: 20pt;
+    margin-right: 30px;
+}
+.navbar .user-area .opt{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 200ms ease-in-out;
+}
+.navbar .user-area  .opt img{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.navbar .user-area  .opt .specifications{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 13pt;
+}
+.navbar .user-area  .opt .type{
+    color: #b3b3b3;
+    font-size: 11pt;
+    margin-top: 5px;
+}
+.navbar .user-area  .opt:hover{
+    background-color: #5555555e;
+}
